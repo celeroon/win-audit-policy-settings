@@ -2,7 +2,6 @@
 
 This project addresses problems with the default Windows log settings. By default, Windows does not log many events that are necessary for detecting malicious activity and performing forensic investigations. To enhance visibility in your Windows environment, the audit policies must be configured properly.
 
-Warning
 > [!IMPORTANT]  
 > Make changes to your systems at your own risk! The suggestions in this project are based on my research from Microsoft documentation and other sources.
 
@@ -16,11 +15,11 @@ Additional thanks go to Yamato-Security for their "Security Log Audit Settings" 
 
 # Access to Document
 
-The document is available for sharing via OneDrive. You can access it through the following link: [Access Document](https://1drv.ms/x/s!Aq8mUjPGWpnIjfhczbceN-J1qHXdKQ?e=cGaksE).
+You can access it through the following link: [Access Document](https://1drv.ms/x/s!Aq8mUjPGWpnIjfhczbceN-J1qHXdKQ?e=cGaksE).
 
 # Custom Script Instructions
 
-This section provides instructions on using the Hayabusa tool along with custom scripts to build a dictionary of statistics for each Event ID.
+This section provides instructions on using the [Hayabusa](https://github.com/Yamato-Security/hayabusa) tool along with custom scripts to build a dictionary of statistics for each Event ID.
 
 1. **Update Sigma Rules Using Hayabusa Tool**:
    - For Linux:
